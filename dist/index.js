@@ -26,7 +26,6 @@
 
     var ts = new Date(conversationDate);
     var dateToString = ts.toString();
-    console.log(dateToString);
     var onlyTheDateWeNeed = dateToString.substr(0, 15);
     var getWeekAbrivation = onlyTheDateWeNeed.substr(0, 3);
     var arrayOfDate = onlyTheDateWeNeed.split(" ");
